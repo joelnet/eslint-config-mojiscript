@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-mojiscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Joel Thoms",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=5",
+    "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-prefer-arrow": "1.1.3"
+  }
+}
