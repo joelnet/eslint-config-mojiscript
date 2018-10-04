@@ -5,7 +5,7 @@ ESLint config file for [MojiScript](https://github.com/joelnet/MojiScript).
 ## Install
 
 ```bash
-npm install --save-dev eslint-config-mojiscript eslint-plugin-fp@2.3.0 eslint-plugin-prefer-arrow@1.1.3
+npm install --save-dev eslint-config-mojiscript
 npx install-peerdeps --dev eslint-config-mojiscript
 ```
 
