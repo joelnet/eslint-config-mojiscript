@@ -45,7 +45,7 @@ module.exports = {
     "array-bracket-spacing": ["error", "always"],
     "array-element-newline": ["error", "consistent"],
     "eol-last": ["error", "always"],
-    "better/no-ifs", ["error"],
+    "better/no-ifs": ["error"],
     "fp/no-mutation": ["error", { commonjs: true }],
     "fp/no-unused-expression": ["off"]
   },
