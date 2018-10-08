@@ -10,7 +10,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
-  plugins: ["fp", "prefer-arrow"],
+  plugins: ["better", "fp", "prefer-arrow"],
   extends: "plugin:fp/recommended",
   rules: {
     "indent-legacy": ["error", 2],
@@ -45,6 +45,7 @@ module.exports = {
     "array-bracket-spacing": ["error", "always"],
     "array-element-newline": ["error", "consistent"],
     "eol-last": ["error", "always"],
+    "better/no-ifs", ["error"],
     "fp/no-mutation": ["error", { commonjs: true }],
     "fp/no-unused-expression": ["off"]
   },
