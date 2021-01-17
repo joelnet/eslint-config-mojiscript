@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "func-params-args/func-params": [
+      "error",
+      {
+        "global": 1
+      }
+    ],
+    "func-params-args/func-args": [
+      "error",
+      {
+        "global": 1
+      }
+    ]
+  }
+}
