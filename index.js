@@ -24,7 +24,7 @@ module.exports = {
     "no-multiple-empty-lines": ["error", { max: 1 }],
     "no-unexpected-multiline": ["off"],
     "no-labels": "error",
-    "no-unused-vars": ["error", { "after-used": null }],
+    "no-unused-vars": ["error", { "after-used": null, "argsIgnorePattern": "^_$" }],
     "no-undef": ["error"],
     "max-params": ["error", 1],
     eqeqeq: ["error", "always", { null: "ignore" }],
