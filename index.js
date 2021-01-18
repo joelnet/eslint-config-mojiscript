@@ -10,13 +10,13 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
-  plugins: ["better", "fp", "prefer-arrow"],
+  plugins: ["better", "fp", "prefer-arrow", "func-params-args"],
   extends: "plugin:fp/recommended",
   rules: {
     "indent-legacy": ["error", 2],
     "linebreak-style": ["error", "unix"],
-    quotes: ["error", "single"],
-    semi: ["error", "never"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
     "comma-spacing": ["error", { before: false, after: true }],
     "func-call-spacing": ["error", "always", { allowNewlines: true }],
     "no-multi-spaces": ["error", { ignoreEOLComments: true }],
@@ -27,7 +27,7 @@ module.exports = {
     "no-unused-vars": ["error", { "after-used": null }],
     "no-undef": ["error"],
     "max-params": ["error", 1],
-    eqeqeq: ["error", "always", { null: "ignore" }],
+    "eqeqeq": ["error", "always", { null: "ignore" }],
     "arrow-body-style": ["error", "never"],
     "arrow-spacing": "error",
     "prefer-arrow-callback": [
@@ -48,7 +48,8 @@ module.exports = {
     "eol-last": ["error", "always"],
     "better/no-ifs": ["error"],
     "fp/no-mutation": ["error", { commonjs: true }],
-    "fp/no-unused-expression": ["off"]
+    "fp/no-unused-expression": ["off"],
+    "func-params-args/func-args": [ "error", { "global": 1 } ]
   },
   overrides: {
     files: [".mjs"]

@@ -9,6 +9,7 @@
     "eslint": ">=5",
     "eslint-plugin-better": "0.1.5",
     "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-func-params-args": "^1.0.3",
     "eslint-plugin-prefer-arrow": "1.1.3"
   }
 }
